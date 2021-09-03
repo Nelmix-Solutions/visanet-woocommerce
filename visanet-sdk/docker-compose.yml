@@ -1,0 +1,9 @@
+sdk:
+  build: .
+  volumes:
+    - ./src:/var/www/html/src
+    - ./tests:/var/www/html/tests
+    - ./private:/var/www/html/private
+    - ./examples:/var/www/html/examples
+  ports:
+    - 3000:80
