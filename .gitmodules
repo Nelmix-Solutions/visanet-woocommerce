@@ -1,3 +1,0 @@
-[submodule "visanet-sdk"]
-	path = visanet-sdk
-	url = git@bitbucket.org:visanetdo/sdk.git
